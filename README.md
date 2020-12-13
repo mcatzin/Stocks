@@ -40,3 +40,7 @@
    1. create WeeklyStocks Component
    2. create Lazy Loading WeeklyStocks
    3. add WeeklyStocks Route
+10. Monthly Stocks Component
+11. create MonthlyStocks Component
+12. create Lazy Loading MonthlyStocks
+13. add MonthlyStocks Route
