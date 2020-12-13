@@ -7,6 +7,7 @@ const DashboardHome = lazy(() => import("./components/dashboards/container/Dashb
 const DailyStocks = lazy(() =>import("./components/stocks/container/DailyStocks"))
 const WeeklyStocks = lazy(() =>import("./components/stocks/container/WeeklyStocks"))
 const MonthlyStocks = lazy(() =>import("./components/stocks/container/MonthlyStocks"))
+const MonthlyStocksComparison = lazy(() =>import("./components/stocks/container/MonthlyStocksComparison"))
 
 export default class MainLayout extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ export default class MainLayout extends Component {
               <Route path="/stocks/daily" render={props => <DailyStocks {...props} />} />
               <Route path="/stocks/weekly" render={props => <WeeklyStocks {...props} />} />
               <Route path="/stocks/monthly" render={props => <MonthlyStocks {...props} />} />
+              <Route path="/stocks/compare" render={props => <MonthlyStocksComparison  {...props} />} />
             </Switch>
           </Suspense>
         </main>

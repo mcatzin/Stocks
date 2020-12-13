@@ -61,7 +61,7 @@ export const getMonthlyStocksTimeSeries = symbol => dispatch => {
 
 export const getMonthlyStocksForComparison = (...symbols) => dispatch => {
   Promise.all(
-    symbols.map(symbol =>{
+    symbols.map(symbol =>
       fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=${symbol}&apikey=UFG0SAWDO1QWPBM4`)
   .then(
     response => response.json(),
@@ -74,7 +74,7 @@ export const getMonthlyStocksForComparison = (...symbols) => dispatch => {
       payload: reason
     })
   )
-    })
+    )
   )
   .then(
     stocks => dispatch({
