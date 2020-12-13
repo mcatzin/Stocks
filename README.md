@@ -36,3 +36,7 @@
    2. create DailyStocks component
    3. create Lazy Loading DailyStocks
    4. add DailyStocks Route
+9. Weekly Stocks Component
+   1. create WeeklyStocks Component
+   2. create Lazy Loading WeeklyStocks
+   3. add WeeklyStocks Route

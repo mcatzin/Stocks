@@ -5,7 +5,7 @@ import HighchartsMenu from './components/navigation/presentation/HighchartsMenu'
 const DashboardHome = lazy(() => import("./components/dashboards/container/DashbaordHome"))
 
 const DailyStocks = lazy(() =>import("./components/stocks/container/DailyStocks"))
-
+const WeeklyStocks = lazy(() =>import("./components/stocks/container/WeeklyStocks"))
 
 export default class MainLayout extends Component {
   constructor(props) {
@@ -24,6 +24,7 @@ export default class MainLayout extends Component {
               <Route path="/" component={DashboardHome} exact />
               <Route path="/home" render={props => <DashboardHome {...props} />} exact />
               <Route path="/stocks/daily" render={props => <DailyStocks {...props} />} />
+              <Route path="/stocks/weekly" render={props => <WeeklyStocks {...props} />} />
             </Switch>
           </Suspense>
         </main>
