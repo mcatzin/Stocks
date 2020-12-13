@@ -48,3 +48,13 @@
     1. create MonthlyStocksComparison
     2. create Lazy loading MonthlyStocksComparison
     3. add MonthlyStocksComparison Route
+12. Forex actions
+    1. create forex action types
+    2. create action methods
+13. Forex Reducer
+    1. create forex reducer
+14. Create Daily Forex Component
+    1. create daily forex component
+    2. connect the redux store
+    3. create Lazy loading DailyForex
+    4. add DailyForex Route
