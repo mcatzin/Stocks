@@ -31,3 +31,8 @@
 7. Connect Redux store to React
    1. import Provider
    2. import HighChartsSeries from './store/highcharts-store'
+8. Daily stocks component
+   1. create stock folder
+   2. create DailyStocks component
+   3. create Lazy Loading DailyStocks
+   4. add DailyStocks Route
