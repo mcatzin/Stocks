@@ -25,3 +25,9 @@
    1. create a reducer folder and stock-reducers.js file
    2. create STOCK_TIME_SERIES_DAILY, STOCK_TIME_SERIES_WEEKLY, STOCK_TIME_SERIES_MONTHLY MULTIPLE_STOCKS_SERIES_MONTHLY reducers
    3. create reducers.js file
+6. Store
+   1. create store folder
+   2. create highcharts-store.js file
+7. Connect Redux store to React
+   1. import Provider
+   2. import HighChartsSeries from './store/highcharts-store'
