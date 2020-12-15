@@ -9,8 +9,8 @@ export default class DashboardHome extends Component {
         let img1 = "../images/daily-stocks.png",
             img2 = "../images/monthly-stocks-comparison.png",
             img3 = "../images/forex-comparison.png",
-            img4 = "../images/weekly-exchange-rates.png",
-            img5 = "../images/highcharts-chart.png";
+            img4 = "../images/weekly-exchange-rates.png"
+            
         return (
             <div>
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -19,7 +19,6 @@ export default class DashboardHome extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -33,9 +32,6 @@ export default class DashboardHome extends Component {
                         </div>
                         <div className="carousel-item">
                             <img src={img4} className="d-block w-100" alt="Weekly Exchange Rate" height="300" />
-                        </div>
-                        <div className="carousel-item">
-                            <img src={img5} className="d-block w-100" alt="Highcharts Chart" height="300" />
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -53,8 +49,17 @@ export default class DashboardHome extends Component {
                         <div className="card text-white bg-dark mb-3">
                             <div className="card-header">Highstocks</div>
                             <div className="card-body">
-                                <h4 className="card-title">Daily and Monthly Stocks</h4>
-                                <p className="card-text">A demo of fetching the Daily and Monthly stocks data which we will display using highstock chart.</p>
+                                <h4 className="card-title">Daily Stocks</h4>
+                                <p className="card-text">A demo of fetching the Daily stocks data which is displayed using highstock chart.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card text-white bg-dark mb-3">
+                            <div className="card-header">Highstocks</div>
+                            <div className="card-body">
+                                <h4 className="card-title">Monthly Stocks</h4>
+                                <p className="card-text">A demo of fetching the Monthly stocks data which is displayed using highstock chart.</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +77,7 @@ export default class DashboardHome extends Component {
                             <div className="card-header">Highstocks</div>
                             <div className="card-body">
                                 <h4 className="card-title">Weekly Stocks</h4>
-                                <p className="card-text">A demo of fetching the Weekly stocks data which we will display using Highcharts highstock chart..</p>
+                                <p className="card-text">A demo of fetching the Weekly stocks data which is displayed using Highcharts highstock chart.</p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +86,7 @@ export default class DashboardHome extends Component {
                             <div className="card-header">Forex</div>
                             <div className="card-body">
                                 <h4 className="card-title">Current Exchange Value</h4>
-                                <p className="card-text">A demo of fetching the Daily and Weekly forex data which we will display using Highcharts chart.</p>
+                                <p className="card-text">A demo of fetching the Daily and Weekly forex data which is displayed using Highcharts chart.</p>
                             </div>
                         </div>
                     </div>
@@ -91,15 +96,6 @@ export default class DashboardHome extends Component {
                             <div className="card-body">
                                 <h4 className="card-title">Monthly Forex Comparison</h4>
                                 <p className="card-text">A demo of fetching the Monthly Forex for different companies and compare them.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card text-white bg-dark mb-3">
-                            <div className="card-header">Highcharts Chart</div>
-                            <div className="card-body">
-                                <h4 className="card-title">Highchart D&D</h4>
-                                <p className="card-text">A demo of MERN stack which we will display using Highcharts chart.</p>
                             </div>
                         </div>
                     </div>

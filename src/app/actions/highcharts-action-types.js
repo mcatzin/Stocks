@@ -7,3 +7,4 @@ export const FX_DAILY="FX_DAILY"
 export const FX_WEEKLY="FX_WEEKLY"
 export const FX_MONTHLY="FX_MONTHLY"
 export const MULTIPLE_FX_SERIES_MONTHLY = "MULTIPLE_FX_SERIES_MONTHLY"
+

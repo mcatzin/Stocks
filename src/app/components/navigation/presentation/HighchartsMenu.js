@@ -32,6 +32,9 @@ const HighchartsMenu = () =>  {
             aria-haspopup="true" aria-expanded="false">Forex</a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <NavLink className="nav-link" style={{ color: "black"}} to="/forex/daily">Daily Forex</NavLink>
+              <NavLink className="nav-link" style={{ color: "black"}} to="/forex/weekly">Weekly Forex</NavLink>
+              <NavLink className="nav-link" style={{ color: "black"}} to="/forex/monthly">Monthly Forex</NavLink>
+              <NavLink className="nav-link" style={{ color: "black"}} to="/forex/compare">Monthly Forex Comparison</NavLink>
             </div>
           </li>
         </ul>

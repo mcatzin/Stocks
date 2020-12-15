@@ -1,3 +1,40 @@
+# Stocks
+
+## Table of contents
+
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [General Steps](#generalsteps)
+
+## General info
+
+This project is a simple data visualization of live Stocks and Forex website using Highcharts library in React.js with Redux.
+
+## Learning Outcomes
+
+- Learn how to implement Highcharts library with React.js.
+- Learn to visualize live Stocks and Forex data using HighStocks charts
+
+## Tech/Libraries
+
+Project is created with:
+
+- React.js
+- Redux
+- Bootstrap
+- Highcharts library
+
+## Setup
+
+To run this project, install it locally using npm:
+
+```
+$ cd ../
+$ npm install
+$ npm start
+```
+
 1. Installation and starter boilerplate
    1. install all devDependencies and dependencies
    2. create webpack config files
@@ -58,3 +95,15 @@
     2. connect the redux store
     3. create Lazy loading DailyForex
     4. add DailyForex Route
+15. Create Weekly Forex Component
+    1. create weekly forex component
+    2. create Lazy loading WeeklyForex
+    3. add WeeklyForex Route
+16. Create monthly Forex Component
+    1. create monthly forex component
+    2. create Lazy loading MonthlyForex
+    3. add MonthlyForex Route
+17. Create Monthly Forex Comparison Component
+    1. create monthly forex component
+    2. create Lazy loading MonthlyForex
+    3. add MonthlyForex Route

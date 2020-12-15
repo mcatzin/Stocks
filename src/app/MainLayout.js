@@ -10,6 +10,9 @@ const MonthlyStocks = lazy(() =>import("./components/stocks/container/MonthlySto
 const MonthlyStocksComparison = lazy(() =>import("./components/stocks/container/MonthlyStocksComparison"))
 
 const DailyForex = lazy(() =>import("./components/forex/container/DailyForex"))
+const WeeklyForex = lazy(() =>import("./components/forex/container/WeeklyForex"))
+const MonthlyForex = lazy(() =>import("./components/forex/container/MonthlyForex"))
+const MonthlyForexComparison = lazy(() =>import("./components/forex/container/MonthlyForexComparison"))
 
 export default class MainLayout extends Component {
   constructor(props) {
@@ -32,6 +35,9 @@ export default class MainLayout extends Component {
               <Route path="/stocks/monthly" render={props => <MonthlyStocks {...props} />} />
               <Route path="/stocks/compare" render={props => <MonthlyStocksComparison  {...props} />} />
               <Route path="/forex/daily" render={props => <DailyForex  {...props} />} />
+              <Route path="/forex/weekly" render={props => <WeeklyForex  {...props} />} />
+              <Route path="/forex/monthly" render={props => <MonthlyForex  {...props} />} />
+              <Route path="/forex/compare" render={props => <MonthlyForexComparison  {...props} />} />
             </Switch>
           </Suspense>
         </main>
